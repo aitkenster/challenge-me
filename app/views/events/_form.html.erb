@@ -17,14 +17,13 @@
       <%= f.label :name %>
     </p>
       <%= f.text_field :name, class: 'event-form-input', placeholder: 'full name' %>
-
     <p class='event-form-label'>
       <%= f.label :event_date, 'Event Date' %>
     </p>
     <section class='date-select-container'>
       <%= f.date_select :event_date, class: 'event-form-input' %>
     </section>
-    
+
     <p class='event-form-label'>
       <%= f.label :charity %>
     </p>
@@ -42,23 +41,23 @@
       <%= f.text_field :amount_raised, class: 'event-form-input', placeholder: '(leave empty if nothing)' %>
 
     <p class='workout-selection-form'>
-      
+
       <section class='workouts-button-container'>
-        <%= f.radio_button(:training, 2, id:'2-workouts') %> 
+        <%= f.radio_button(:training, 2, id:'2-workouts') %>
         <%= f.label(:training, 2, id: '2-workouts-label') %>
-        <%= f.radio_button(:training, 3, id:'3-workouts') %> 
+        <%= f.radio_button(:training, 3, id:'3-workouts') %>
         <%= f.label(:training, 3, id: '3-workouts-label') %>
-        <%= f.radio_button(:training, 4, id:'4-workouts') %> 
+        <%= f.radio_button(:training, 4, id:'4-workouts') %>
         <%= f.label(:training, 4, id: '4-workouts-label') %>
-        <%= f.radio_button(:training, 5, id:'5-workouts') %> 
+        <%= f.radio_button(:training, 5, id:'5-workouts') %>
         <%= f.label(:training, 5, id: '5-workouts-label') %>
-        <%= f.radio_button(:training, 6, id:'6-workouts') %> 
+        <%= f.radio_button(:training, 6, id:'6-workouts') %>
         <%= f.label(:training, 6, id: '6-workouts-label') %>
       </section>
     </p>
 
     <%= f.submit(id: 'submit-event') %>
-      
+
 
     <script src='https://code.jquery.com/jquery-2.0.3.min.js'></script>
     <script>

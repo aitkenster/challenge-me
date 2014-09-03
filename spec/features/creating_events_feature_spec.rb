@@ -47,5 +47,21 @@ describe 'Creating events' do
         expect(page).to have_content 'error'
       end
     end
+
+    context 'as a logged in user who has a justgiving account with the same email address' do
+      before do
+        toan = create(:user, email: "toan@graduate.uwa.edu.au")
+        login_as toan
+
+        visit select_events_path
+        click_link 'Hot Dog Eating Contest'
+
+        expect(current_path).to eq new_event_path
+        expect(page).to have_content 'Hot Dog Eating Contest'
+        expect(page).to have_content 'British Heart Foundation'
+        expect(page).to have_content '30'
+        expect(page).to have_content '1000'
+      end
+    end
   end
 end

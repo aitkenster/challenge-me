@@ -6,7 +6,9 @@ before_action :authenticate_user!, except: [:index, :show]
   end
 
   def new
-    @event = Event.new
+   @charity = JustGiving::Charity.new.get_charity(params[:data]['charityId'])
+    # @data = JustGiving::Event.new(params[:data]['eventId']).details
+    @event = Event.new(charity: @charity['name'], name: params[:data]['eventName'], target: params[:data]['targetAmount'], amount_raised: params[:data]['raisedAmount'])
   end
 
   def create
@@ -50,4 +52,9 @@ before_action :authenticate_user!, except: [:index, :show]
       redirect_to root_path
     end
   end
+
+  def select
+    @events = JustGiving::Account.new(current_user.email).pages
+  end
+
 end
