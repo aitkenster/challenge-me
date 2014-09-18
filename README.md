@@ -19,18 +19,17 @@ Watch the [video demo](https://www.youtube.com/watch?v=2Tc_3lRnkkM&feature=youtu
 
 **The Problem**
 
-Raising money for charity can be an arduous tast. 
+Raising sponsorship money for charity events can be frustrating and time-consuming. 
 
 1. Problems:
   + People do not want to get spammed all the time.
-  + It is quite difficult to remain motivated to carry out your charity event.
-  + Asking for sponsorship money can be quite difficult for all parties involved.
-  + It's hard for the trainee to get people interested in what they are doing.
-  + It's hard to ask for money for something that could be happening at a much later date. 
+  + Sometimes, it's hard to stay motivated to train for the event.
+  + Asking for sponsorship money can be awkward.
+  + People often aren't that interested interested in what the fundraiser is doing.
 
 2. Our Aims:
   + To help motivate the person training for their event and holding them accountable publicly for it.
-  + To make sponsors feel less resentful if there is a concept of achievements or challenges involved.
+  + To help sponsors feel more engaged in the fundraiser's charity activities.
 
 
 ## Technologies Used:
