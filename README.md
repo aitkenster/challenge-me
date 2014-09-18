@@ -5,6 +5,7 @@
 ## Where to see it
 
 A working version of the app can be found here: [Challenge Me](http://challenge--me.herokuapp.com/)
+Or watch the [video demo](https://www.youtube.com/watch?v=2Tc_3lRnkkM&feature=youtu.be)
 
 ### Meet the Team: 
 
@@ -17,7 +18,7 @@ A working version of the app can be found here: [Challenge Me](http://challenge-
 
 **The Problem**
 
-At the moment, raising money for charity can be quite boring. It boils down to a combination of issues faced by both the participant and sponsor.
+Raising money for charity can be an arduous tast. 
 
 1. Problems:
   + People do not want to get spammed all the time.
@@ -46,6 +47,7 @@ At the moment, raising money for charity can be quite boring. It boils down to a
   + Amazon S3
   + Paperclip
   + Imagemagick
+  + Omniauth
   
 ## APIs Used:
 
@@ -73,6 +75,3 @@ open your browser and go to [localhost:3000](http://localhost:3000)
 cd challenge-me
 rspec
 ```
-
-
-Youtube link to follow....
